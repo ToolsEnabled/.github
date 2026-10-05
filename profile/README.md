@@ -1,6 +1,8 @@
 # ToolsEnabled
 
-We build **ToolsEnabled Fleet**, a plugin that gives a coding-agent session a team.
+<p align="center"><img src="https://raw.githubusercontent.com/ToolsEnabled/.github/main/profile/skip.png" alt="Skip and the Mates: a round graphite skipper in a red cap with four small crew members" width="460"></p>
+
+We build **ToolsEnabled Fleet**, a plugin that gives a coding-agent session a team. Meet **Skip**, who runs the crew, and the Mates, who do the work.
 
 Fleet lets one session hand work to several subagents that run in parallel and keep going while you do other things. It adds a shared task list, a ledger of your standing rules and open questions, and project memory that every agent can read. It runs on your own computer and sends nothing to ToolsEnabled.
 
