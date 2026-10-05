@@ -8,7 +8,7 @@ Fleet lets one session hand work to several subagents that run in parallel and k
 
 ## Install it now, free, from GitHub
 
-You need Linux (x86_64), Node.js 22.19 or newer, and Claude Code signed in. Paste these into your terminal:
+You need Linux (x86_64), Node.js 22.19 or newer, and Claude Code, which Fleet installs into. For subagents you also need at least one supported agent CLI installed and signed in. Paste these into your terminal:
 
 ```
 claude plugin marketplace add ToolsEnabled/toolsenabled-fleet-claude-plugin
@@ -21,4 +21,4 @@ Then open a project folder in Claude Code and type `/toolsenabled-fleet:tefleet 
 
 ---
 
-Founded by Joshua Pinckard. © ToolsEnabled, Inc. MIT licensed. ToolsEnabled is independent and is not affiliated with or endorsed by Anthropic or OpenAI; their products and names belong to their owners.
+Founded by Joshua Pinckard. © ToolsEnabled, Inc. MIT licensed. ToolsEnabled is independent and is not affiliated with or endorsed by Anthropic, OpenAI or any other AI provider; their products and names belong to their owners.
