@@ -1,58 +1,22 @@
 # ToolsEnabled
 
-**ToolsEnabled was founded and created by Joshua Pinckard. The original platform was
-developed by directing autonomous AI-agent fleets through the system's own evolving
-coordination architecture.**
+We build **ToolsEnabled Fleet**, a plugin that gives a coding-agent session a team.
 
-| | |
-| --- | --- |
-| Company / copyright holder | ToolsEnabled, Inc. *(in formation)* |
-| Sole founder and creator | Joshua Pinckard |
-| Official product | ToolsEnabled |
-| Official publisher | ToolsEnabled, Inc. *(in formation)* |
+Fleet lets one session hand work to several subagents that run in parallel and keep going while you do other things. It adds a shared task list, a ledger of your standing rules and open questions, and project memory that every agent can read. It runs on your own computer and sends nothing to ToolsEnabled.
 
-## What we build
+## Install it now, free, from GitHub
 
-**ToolsEnabled** is a free, open-source platform that gives an AI
-agent a governed set of real tools — a policy kernel that decides what is allowed, a
-tamper-evident audit ledger that records what happened, and a provider surface that does
-the work. It ships with a reference interface of the same name.
+You need Linux (x86_64), Node.js 22.19 or newer, and Claude Code signed in. Paste these into your terminal:
 
-Run it locally, over your own LAN, or self-hosted. No account required.
+```
+claude plugin marketplace add ToolsEnabled/toolsenabled-fleet-claude-plugin
+claude plugin install toolsenabled-fleet@toolsenabled
+```
 
-**ToolsEnabled Anywhere** is our optional paid service for reaching your machines when you
-are not on the same network: managed connectivity, enrollment, relay, monitoring, recovery
-and support. It is a hosted service, not a feature unlock — nothing in the open-source
-product is disabled to sell it.
+Then open a project folder in Claude Code and type `/toolsenabled-fleet:tefleet setup`.
 
-## This organization
-
-This is the official home of the project. ToolsEnabled, Inc. controls the official
-repositories, the releases, the project's names, and the signed installers.
-
-Anyone may fork and propose changes. Only approved code enters the official build. A fork
-is your own — it is not the official product and must not present itself as the official
-build or as published by ToolsEnabled, Inc.
-
-## Credit
-
-Outside developers are credited in each repository's `CONTRIBUTORS.md` as contributors and
-maintainers. **Contributors and maintainers are never founders.** The founder credit above
-is singular and is not shared.
-
-## Legal status
-
-- **ToolsEnabled, Inc. is not yet incorporated.** It is named as the intended publisher and
-  marked *(in formation)*. Copyright is held personally by Joshua Pinckard until the entity
-  exists and the rights are assigned to it.
-- **No trademark application has been filed** for "ToolsEnabled", and it is not claimed as
-  a registered mark.
-- **The interface was previously called "Mission Control", and that name has been
-  dropped.** A USPTO search returned 17 live marks for it in the relevant classes,
-  including Apple Inc. (Reg. 4240125, IC 009) and BMC Software. "ToolsEnabled" returned no
-  hits, live or dead.
+**Repository:** [ToolsEnabled/toolsenabled-fleet-claude-plugin](https://github.com/ToolsEnabled/toolsenabled-fleet-claude-plugin) · **Website:** [toolsenabled.ai](https://toolsenabled.ai) · **Support:** support@toolsenabled.ai · **Security:** security@toolsenabled.ai
 
 ---
 
-*ToolsEnabled — created by Joshua Pinckard, sole founder.
-Published by ToolsEnabled, Inc. (in formation). Copyright © 2026 Joshua Pinckard.*
+Founded by Joshua Pinckard. © ToolsEnabled, Inc. MIT licensed. ToolsEnabled is independent and is not affiliated with or endorsed by Anthropic or OpenAI; their products and names belong to their owners.
