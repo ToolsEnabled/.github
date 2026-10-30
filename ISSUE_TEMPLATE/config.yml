@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security problem privately
+    url: https://github.com/ToolsEnabled/.github/blob/main/SECURITY.md
+    about: Please do not open a public issue for a security problem.
+  - name: Account, sign-in or hosted-service help
+    url: https://toolsenabled.ai/support/
+    about: For anything about your own toolsenabled.ai account, email support@toolsenabled.ai.

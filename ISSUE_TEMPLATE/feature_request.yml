@@ -1,0 +1,31 @@
+name: Suggest an improvement
+description: An idea, a missing feature or something that could be easier.
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Which product?
+      options:
+        - TEAA (local MCP connection)
+        - TEAA + FRA + Hub
+        - Hosted service at toolsenabled.ai
+        - Self-hosted server
+        - Fleet
+        - ToolsEngine
+        - Knowledge
+        - Website or documentation
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: What are you trying to do?
+      description: The task or problem, in your own words.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
