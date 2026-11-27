@@ -1,14 +1,23 @@
-# ToolsEnabled
+# ToolsEnabled — Intelligence, Put to Work
 
-We build **[TESI](https://toolsenabled.ai/)** (*ToolsEnabled Super Intelligence*) — an AI that does real work for you on its own cloud computer in your browser.
+We build **[TESI](https://toolsenabled.ai/)** (*ToolsEnabled Super Intelligence*) — **Lovable, Bolt, v0, Replit Agent, Devin, and Manus combined into one intelligence** with its own real cloud Linux + Chrome computer, persistent files, Sign-In Vault, and verified multi-agent execution.
 
-Give TESI a task in plain language. It works on its own cloud computer (with a browser, files, and a terminal you can watch live), checks the result, and keeps your finished files ready to download.
+### Try Everything Free — Zero Sign-Up Required
 
-- **Try TESI Free (no sign-up or email required):** [toolsenabled.ai/try](https://toolsenabled.ai/try/)
-- **What is TESI?** [toolsenabled.ai/what-is-tesi](https://toolsenabled.ai/what-is-tesi/)
-- **Plans & Pricing:** [toolsenabled.ai/pricing](https://toolsenabled.ai/pricing/)
-- **Prepaid Agent API (HTTP 402):** [toolsenabled.ai/agents](https://toolsenabled.ai/agents/) · [llms.txt](https://toolsenabled.ai/llms.txt)
-
+- **Instant Free Cloud Computer in Your Browser (`$0`, no sign-up, no card):** **[https://toolsenabled.ai/](https://toolsenabled.ai/)** — type a task in plain language, watch TESI work live on its own Linux desktop & browser, and download the finished code, reports, slides, or verified deliverables.
+- **Free `$2.50` Keyless Remote HTTP MCP Server (`$0`, no API key or card needed):** Connect **Claude Duet, ChatGPT Dot, Grok Bot, Meta Muse, Claude Code, Codex, Cursor, or Windsurf** directly to a real TESI cloud computer in one command:
+  ```bash
+  claude mcp add --transport http tesi https://toolsenabled.ai/mcp
+  ```
+  Or paste `https://toolsenabled.ai/mcp` into Claude Custom Connectors, ChatGPT Dots, Grok, Cursor, or `mcp.json`:
+  ```json
+  {
+    "mcpServers": {
+      "tesi": { "url": "https://toolsenabled.ai/mcp" }
+    }
+  }
+  ```
+- **Agent API, Docs & `llms.txt`:** [toolsenabled.ai/agents/](https://toolsenabled.ai/agents/) · [llms.txt](https://toolsenabled.ai/llms.txt) · [llms-full.txt](https://toolsenabled.ai/llms-full.txt) · [TESI HALO](https://toolsenabled.ai/halo) · [Plans & Pricing](https://toolsenabled.ai/pricing/)
 ---
 
 ## Open-Source Developer Tools
